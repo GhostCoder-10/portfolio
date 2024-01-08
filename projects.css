@@ -1,0 +1,193 @@
+body{
+    text-align: center;
+    background-color: #162336;
+    color: white;
+}
+
+#My-Project{
+    height: 100vh;
+    background-image: url(./imgaes/14904187_gradient_1.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    
+}
+
+.project-button {
+    border: 4px solid white;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 60px 0 0 0 ;
+    padding: 12px 32px 12px 32px;
+    position: relative;
+    text-decoration: none;
+}
+
+
+.title{
+    color: white;
+
+    padding-top: 300px;
+    font-size: 130px;
+    font-family: 'Nova Flat', system-ui;
+
+}
+.project1{
+
+    margin: 100px;
+
+}
+.project-image{
+    height: 600px;
+    width: 1150px;
+    margin: 100px 0 50px 0;
+    
+
+    border: 2px solid pink;
+    outline: 2px solid white;
+    outline-offset: 20px;
+    outline-style:double;
+}
+
+.badge {
+    margin: 1.5em 3em;
+    width: 6.4em;
+    height: 6.4em;
+    border-radius: 20%;
+    display: inline-block;
+    top: 0;
+    transition: all 0.2s ease;
+  box-shadow: 8px 10px 12px 3px rgba(0, 0, 0, 0.43);
+}
+
+.rounded {
+  width: 70px;
+    height: 70px;
+  background: white;
+  position: absolute;
+  margin: 15px 16px auto;
+  z-index: 10;
+    border-radius: 30%;
+  box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.23);
+  
+  
+}
+
+.icon{
+  font-size: 4em;
+  margin-top: 10px;
+}
+
+
+/* Colors */
+.blue {
+    background: dodgerblue;
+    color: deepskyblue;
+}
+
+.orange {
+  background: darkorange;
+  color: orange;
+}
+
+.gold {
+  background: gold;
+  color: gold;
+}
+
+.red {
+  background: red;
+  color: red;
+}
+
+.purple {
+  background: mediumpurple;
+  color: slategray;
+}
+
+.green {
+  background: yellowgreen;
+  color: darkslategray;
+}
+
+.crimson {
+  background: crimson;
+  color: firebrick;
+}
+
+.steel {
+  background: steelblue;
+  color: gold;
+}
+
+.pink {
+  background: hotpink;
+  color: palevioletred;
+}
+
+.rebecca {
+  background: rebeccapurple;
+  color: rebeccapurple;
+}
+
+.gainsboro {
+  background: gainsboro;
+  color: orangered;
+}
+.ethereum {
+  background: #F3CCF3;
+  color: black;
+}
+
+.about{
+    padding: 150px 0 10px 0;
+    font-size: 45px;
+}
+.introduction{
+padding: 80px 250px 50px 250px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+@media screen and (max-width: 770px) {
+    .title{
+        padding-top: 150px;
+        font-size: 85px;
+
+    }
+
+    .project1{
+        margin: 45px;
+    }
+    .project-image{
+        height: 150px;
+        width: 250px;
+
+    }
+
+    .introduction{
+        padding: 80px 40px 40px 40px;
+    }
+
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1024px){
+    .project1{
+        margin: 50px;
+    }
+    .project-image{
+        height: 500px;
+        width: 650px;
+    }
+    .introduction{
+        padding: 80px 50px 50px 50px;
+    }
+}
