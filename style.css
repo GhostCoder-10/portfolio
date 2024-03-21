@@ -61,6 +61,24 @@ canvas {
   }
 
 
+  #visitor-count {
+    font-size: 2em; /* Increase font size for better visibility */
+    animation: count-up 2s ease-in-out forwards; /* Animation properties */
+  }
+  
+  @keyframes count-up {
+    from {
+      transform: translateY(100px); /* Start from below */
+      opacity: 0; /* Start invisible */
+    }
+    to {
+      transform: translateY(0); /* End at normal position */
+      opacity: 1; /* End fully visible */
+    }
+  }
+  
+
+
 #About{
     text-align: center;
     color: white;
